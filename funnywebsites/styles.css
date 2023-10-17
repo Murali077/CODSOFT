@@ -1,0 +1,39 @@
+body, html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+.header {
+  background-color: #cc6666; /* Set your desired background color here */
+  text-align: center;
+  padding: 1px 0;
+}
+
+.container {
+  display: flex;
+  height: 100vv; /* Fixed the typo here: changed 'vv' to 'vh' */
+}
+
+.orange {
+  flex: 1;
+  background-color: orange;
+}
+
+.white {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+}
+
+.white img {
+  max-width: 120%;
+  max-height: 150%;
+}
+
+.green {
+  flex: 1;
+  background-color: green;
+}
